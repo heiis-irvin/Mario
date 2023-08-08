@@ -35,10 +35,6 @@ body{
     width: 100vw;
 }
 
-.image-content{
-    
-}
-
 /* Layering images */
 .image-container {
     position: relative;
@@ -78,12 +74,9 @@ body{
     position: absolute;
 }
 
-.banner-1{
+#banner-1{
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
 }
-
-
-
