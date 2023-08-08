@@ -33,22 +33,41 @@ body{
 
 .banner{
     width: 100vw;
-    height: 90vh;
 }
 
 .image-content{
-
+    
 }
 
 .text-box{
+    width: 600px;
+    height: 600px;
+    top: 200px;
+    left: 100px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em;  
+    position: absolute;
     border-radius: 50px;
     background: #9e1515;
     box-shadow:  20px 20px 60px #861212,
      -20px -20px 60px #b61818;
 }
 
+.min-image{
+    width: 300px;
+    height: 600px;
+    top: 300px;
+    right: 50px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em;  
+    position: absolute;
+}
+
 .banner-1{
     width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
 }
