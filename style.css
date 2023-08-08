@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+}
+
+.head{
+    background-color: red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+}
+
+.head a{
+    text-decoration: none;
+}
+
+.animation{
+    width: 100vw; 
+}
+
+.banner{
+    width: 100vw;
+    height: 90vh;
+}
+
+.image-content{
+
+}
+
+.text-box{
+    border-radius: 50px;
+    background: #9e1515;
+    box-shadow:  20px 20px 60px #861212,
+     -20px -20px 60px #b61818;
+}
+
+.banner-1{
+    width: 100vw;
+    top: 0;
+    left: 0;
+}
+
