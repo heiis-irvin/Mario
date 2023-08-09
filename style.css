@@ -27,8 +27,11 @@ body{
     text-decoration: none;
 }
 
-.animation{
-    width: 100vw; 
+.slider{
+    width: 100vw;
+    display: flex;
+    
+    
 }
 
 .banner{
