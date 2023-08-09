@@ -28,6 +28,27 @@ body{
     text-decoration: none;
 }
 
+.nav{
+    top: 5000px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100vw;
+    margin-top: -10px;  
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover{
+    text-decoration: underline ;
+    color: red;
+}
+
 .slider{
     width: 100vw;
     display: flex;
