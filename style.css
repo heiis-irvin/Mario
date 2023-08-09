@@ -66,9 +66,53 @@ body{
                 -16px -16px 0px #e40e0e;
 }
 
-.min-image{
-    width: 300px;
-    height: 600px;
+.min-image-1{
+    width: 350px;
+    height: 700px;
+    top: 300px;
+    right: 50px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em;  
+    position: absolute;
+}
+
+.min-image-2{
+    width: 350px;
+    height: 700px;
+    top: 300px;
+    right: 50px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em;  
+    position: absolute;
+}
+
+.min-image-3{
+    width: 350px;
+    height: 700px;
+    top: 300px;
+    right: 50px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em;  
+    position: absolute;
+}
+
+.min-image-4{
+    width: 350px;
+    height: 700px;
+    top: 300px;
+    right: 50px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em;  
+    position: absolute;
+}
+
+.min-image-5{
+    width: 350px;
+    height: 700px;
     top: 300px;
     right: 50px;
     padding: 30px;
