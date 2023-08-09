@@ -77,9 +77,24 @@ body{
     position: absolute;
 }
 
-#banner-1{
+#banner-1, #banner-2, #banner-3, #banner-4, #banner-5{
     width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
+}
+
+
+#banner-1.active,
+#banner-2.active,
+#banner-3.active,
+#banner-4.active,
+#banner-5.active{
+    display: block;
+}
+
+.Animation > div {
+    display: none;
+    width: 100vw;
+    height: 100vh;
 }
