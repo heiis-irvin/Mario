@@ -198,7 +198,7 @@ body{
 .form .form-row {
     display: flex;
     align-items: baseline;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /* Style for labels */
@@ -210,7 +210,7 @@ body{
 /* Style for inputs */
 .form input[type="text"],
 .form input[type="email"],
-.form input[type="tel"] {
+.form input[type="tel"]{
     flex: 2;
     padding: 10px;
     border: 1px solid #ccc;
@@ -220,14 +220,23 @@ body{
     font-family: "Comic Sans MS", "Comic Sans", sans-serif;
     font-weight: bolder;
 }
+.form input[type="checkbox"]{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 30px; 
+    height: 18px; 
+    border: 2px solid #004289; 
+    background-color: white;
+    border-radius: 5px;
+}
 
 /* Style the placeholder */
 .form input[type="text"]::placeholder,
 .form input[type="email"]::placeholder,
 .form input[type="tel"]::placeholder {
     font-family: "Comic Sans MS", "Comic Sans", sans-serif;
-    font-weight: bolder;
-    font-size: larger; 
+    font-size: medium; 
 }
 
 /* Style for submit button */
