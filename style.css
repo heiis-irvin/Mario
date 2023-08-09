@@ -20,6 +20,7 @@ body{
     border-radius: 20px;
     height: 50px;
     width: 200px;
+    background: linear-gradient(190deg, #001d3d, #004289, #004289);
     color: white;
 }
 
@@ -141,4 +142,136 @@ body{
     display: none;
     width: 100vw;
     height: 100vh;
+}
+
+.banner-footer{
+    background: linear-gradient(190deg, #001d3d, #004289, #004289);
+    position: relative;
+    width: 100vw;
+    margin-top: -5px;
+    height: 20px;
+}
+
+.register{
+    width: 100vw;
+    display: flex;
+    margin-top: 125px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e40e0e;
+}
+
+.form{
+    width: 600px;
+    height: 520px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: larger;
+    line-height: 2.3em;  
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #001d3d, #004289, #004289);
+    /* Other Form styles
+    background: linear-gradient(145deg, #004ea3, #004289);
+    box-shadow:  5px 5px 10px #001d3d,
+                 -5px -5px 10px #0075f3; 
+    background: linear-gradient(145deg, #004289, #004289);
+    box-shadow:  16px 16px 0px #a80a0a,
+                -16px -16px 0px #004289;
+    background: linear-gradient(145deg, #001d3d, #004289);
+    box-shadow:  16px 16px 0px #004ea3,
+                -16px -16px 0px #001d3d; 
+    background: linear-gradient(145deg, #001d3d, #001d3d);*/
+}
+
+.register h2{
+    text-align: center;
+}
+/* Form Styling  */
+/* Reset default form styles */
+.form form {
+    margin: 0;
+}
+
+/* Style for form rows (label and input container) */
+.form .form-row {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+/* Style for labels */
+.form label {
+    flex: 1;
+    font-weight: bold;
+}
+
+/* Style for inputs */
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"] {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-weight: bolder;
+}
+
+/* Style the placeholder */
+.form input[type="text"]::placeholder,
+.form input[type="email"]::placeholder,
+.form input[type="tel"]::placeholder {
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-weight: bolder;
+    font-size: larger; 
+}
+
+/* Style for submit button */
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d40d0d;
+    color: white;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+}
+
+/* On hover style for submit button */
+.form input[type="submit"]:hover {
+    background-color: #b20b0b;
+}
+
+.reg-image{
+    width: 400px;
+    height: 400px;
+    top: 1500px;
+    left: -10px;
+    margin-right: -100px;
+    padding: 30px;
+    font-size: larger;
+    line-height: 2.3em; 
+    z-index: 1; 
+    position: absolute;
+}
+
+.l-image{
+    width: 100vw;
+}
+
+.footer{
+    margin-top: -5px;
+    background-color: red;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
