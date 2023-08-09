@@ -80,7 +80,7 @@ body{
 .min-image-2{
     width: 350px;
     height: 700px;
-    top: 300px;
+    top: 250px;
     right: 50px;
     padding: 30px;
     font-size: larger;
@@ -89,7 +89,7 @@ body{
 }
 
 .min-image-3{
-    width: 350px;
+    width: 400px;
     height: 700px;
     top: 300px;
     right: 50px;
@@ -101,7 +101,7 @@ body{
 
 .min-image-4{
     width: 350px;
-    height: 700px;
+    height: 600px;
     top: 300px;
     right: 50px;
     padding: 30px;

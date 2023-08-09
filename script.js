@@ -16,5 +16,5 @@
             banners[currentBannerIndex].classList.add("active");
     
             // Set an interval to switch banners every 10 seconds
-            setInterval(switchBanner, 1000);
+            setInterval(switchBanner, 15000);
         });
