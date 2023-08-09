@@ -29,14 +29,14 @@ body{
 }
 
 .nav{
-    top: 5000px;
-    background-color: grey;
+    margin-top: 106px;
+    background: linear-gradient(190deg, #001d3d, #004289, #004289);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 70px;
     width: 100vw;
-    margin-top: -10px;  
+      
 }
 
 .nav a{
@@ -165,18 +165,9 @@ body{
     height: 100vh;
 }
 
-.banner-footer{
-    background: linear-gradient(190deg, #001d3d, #004289, #004289);
-    position: relative;
-    width: 100vw;
-    margin-top: -5px;
-    height: 20px;
-}
-
 .register{
     width: 100vw;
     display: flex;
-    margin-top: 125px;
     justify-content: center;
     align-items: center;
     background-color: #e40e0e;
